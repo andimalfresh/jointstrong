@@ -17,6 +17,7 @@ function App() {
     <div className="App">
       
       <Navbar />
+      <div className="container">
       <Switch>
         <Route component={Home} exact path="/" />
         <Route component={About}  path="/about" />
@@ -26,7 +27,8 @@ function App() {
         <Route component={Mobile}  path="/mobile" /> */}
         <Route component={Virtual}  path="/virtual" />
       </Switch>
-      <Footer />
+      </div>
+      <Footer className="Footer"/>
 
     </div>
     </Router>
