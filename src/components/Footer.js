@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="footer">
+    <footer class="footer is-fixed-bottom">
       <div class="content has-text-centered">
         <p>
           <strong>Bulma</strong> by{" "}

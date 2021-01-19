@@ -1,3 +1,7 @@
 
 @import "bulma/sass/utilities/_all.sass";
 @import 'bulma';
+
+.is-horizontal-center {
+    justify-content: center;
+  }

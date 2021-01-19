@@ -5,7 +5,7 @@ import Community from './components/Community'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Home from './components/Home'
-import Mobile from './components/Mobile'
+import Solutions from './components/Solutions'
 import Navbar from './components/Navbar'
 import Virtual from './components/Virtual'
 // import { About, Clinical, Community, Contact, Footer, Home, Mobile, Navbar, Virtual } from './components/'
@@ -21,11 +21,11 @@ function App() {
       <Switch>
         <Route component={Home} exact path="/" />
         <Route component={About}  path="/about" />
-        <Route component={Clinical}  path="/clinical" />
+        {/* <Route component={Clinical}  path="/clinical" /> */}
         <Route component={Community}  path="/community" />
         <Route component={Contact}  path="/contact" />
-        <Route component={Mobile}  path="/mobile" /> */}
-        <Route component={Virtual}  path="/virtual" />
+        <Route component={Solutions}  path="/solutions" /> */}
+        {/* <Route component={Virtual}  path="/virtual" /> */}
       </Switch>
       </div>
       <Footer className="Footer"/>
