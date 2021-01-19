@@ -5,8 +5,10 @@ const Home = () => {
     <div>
       <div className="hero is-info is-large">
         <div className="hero-body">
-          <h1 className="title">Joint Strong</h1>
-          <h2 className="subtitle">a tagline of JS</h2>
+          <h1 className="title">JointStrong®</h1>
+          <h2 className="subtitle">
+            Your answer for musculoskeletal health and wellness.
+          </h2>
         </div>
       </div>
       <div>
@@ -145,13 +147,13 @@ const Home = () => {
           <p>
             The JointStrong® program consists of three levels of care to ensure
             that you are given the care that you need. The best place to start
-            the JointStrong program is through our JointStrong App. The
-            JointStrong App will take you through an assessment process to
+            the JointStrong® program is through our JointStrong® App. The
+            JointStrong® App will take you through an assessment process to
             diagnose your condition and assist you in deciding which level of
-            JointStrong care for the treatment of your condition.
+            JointStrong® care for the treatment of your condition.
           </p>
           <p>
-            For those with simple conditions, the JointStrong app will provide
+            For those with simple conditions, the JointStrong® app will provide
             you with specific movements designed to help you alleviate your
             back, neck, or joint pain. For those with more complex conditions or
             if you would like to talk to a licensed clinician, you will be
@@ -162,6 +164,25 @@ const Home = () => {
         <div>
           <h1 className="title">The JointStrong® Difference</h1>
           Video
+        </div>
+        <div>
+          <h1 className="title">JointStrong® is Nationwide</h1>
+          <h2 className="subtitle">
+            Interested in experiencing the improved patient experience from a
+            JointStrong® Program?
+          </h2>
+          <p>
+            We recommend beginning your journey toward recovery by contacting
+            our highly training Health Coaching staff at{" "}
+            <strong>855-293-0340</strong>, but you are also able to leave us a
+            message on the site or search our database of current JointStrong®
+            facilities below. ​ Don't forget, JointStrong® also offers
+            telehealth solutions through our mobile application for the
+            treatment of your musculoskeletal condition. This allows us to offer
+            the superior treatment of your condition that you deserve from the
+            comfort of your chosen environment, but also on your schedule and at
+            your availability!
+          </p>
         </div>
       </div>
     </div>
