@@ -1,36 +1,44 @@
 import React from "react";
+import Test1 from "./img/testimony1.png";
+import Test2 from "./img/testimony2.png";
+import Test3 from "./img/testimony3.png";
+import Phone from "./img/phone.png";
+import Self from "./img/selfcare2.png";
+import Clinical from "./img/clinicalcare2.png";
+import VirtualImg from "./img/virtualcareappt.png";
+
 
 const Virtual = () => {
   return (
-    <div>
-      <div className="hero is-info is-large">
-        <div className="hero-body">
-          <h1 className="title">Virtual Care</h1>
-          <h2 className="subtitle">
-            JointStrong® Telehealth Clinicians evaluate and treat symptoms using
-            the same methods applied in on-site care and will assist in a safer
-            recovery complete with a personalized treatment plan and education
-            specific to the condition.
-          </h2>
+    <div className="md-4">
+        <div className="hero is-info py-4 px-6">
+        <div className="columns is-align-items-center md-4">
+          <div className="rows">
+            <h1 className="row title">JointStrong®</h1>
+            <h2 className="row subtitle">
+              Your answer for musculoskeletal health and wellness.
+            </h2>
+          </div>
+          <div className="column is-half is-justify-content-center">
+            <img src={Phone} />
+          </div>
+        </div>
+        </div>
+      <div>
+        <h2 className="subtitle px-4 py-4">
+          Start rethinking your pain and care with JointStrong® today!
+        </h2>
+        <div className="px-4 py-4">
+          <strong>JointStrong®</strong> is a comprehensive program designed to
+          resolve the majority of back, neck, and other joint conditions with a
+          conservative approach that minimizes the need for opioids, injections,
+          MRIs, surgeries, and other advanced forms of care. Whether for injury
+          prevention or pain reduction, JointStrong can help you move from
+          healthcare to self-care. Begin taking charge of your health today!
         </div>
       </div>
-      <div>
-        <p className="subtitle">
-          <strong>VIRTUAL CARE</strong> is revolutionizing how quality patient
-          care is delivered by providing access to the very best clinicians in
-          the world, from the comfort of your chosen environment. The
-          JointStrong ® Telehealth Platform provides patients the ability to
-          schedule appointments with our top-tier clinicians for the full
-          diagnostic assessment and treatment of their condition, all with our
-          signature Outcomes Accountable Care ™ guarantee. To learn more about
-          this program and how to get started, please watch this introductory
-          video to your right.
-        </p>
-      </div>
-      <div>
-        <h1 className="title">
-          HOW TO GET <strong>STARTED</strong>
-        </h1>
+      <div className="px-4 py-4">
+        <h1 className="title">The JointStrong® user experience:</h1>
         <div className="columns">
           <div className="column">
             <div className="card equal-height">
@@ -38,36 +46,31 @@ const Virtual = () => {
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-96x96">
-                      <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
-                        alt="Placeholder image"
-                      />
+                      <img src={Test1} alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="media-content">
-                    <p className="title is-4">REQUEST AN APPOINTMENT </p>
+                    <p className="title is-4">John Smith</p>
+                    <p className="subtitle is-6">@johnsmith</p>
                   </div>
                 </div>
 
                 <div className="content">
-                  "Being a single dad, the last thing you have time for is going
-                  to the Doctor when your back gives out. JointStrong guided me
-                  to recovery on my schedule, and gave me the tools to make sure
-                  it didn't happen again.... so I could keep chasing my 5 year
-                  old!"
-                  <br />​ - Branden
+                  "Working in an office I spend most of my day sitting at my
+                  computer, JointStrong, gave me the tools I needed to deal with
+                  the pain and prevent it from coming back!"
+                  <br />​ - Matt
                 </div>
               </div>
             </div>
+          </div>
+          <div className="column">
             <div className="card equal-height">
               <div className="card-content">
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-96x96">
-                      <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
-                        alt="Placeholder image"
-                      />
+                      <img src={Test2} alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="media-content">
@@ -93,10 +96,7 @@ const Virtual = () => {
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-96x96">
-                      <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
-                        alt="Placeholder image"
-                      />
+                      <img src={Test3} alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="media-content">
@@ -115,67 +115,12 @@ const Virtual = () => {
                 </div>
               </div>
             </div>
-            <div className="card equal-height">
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-left">
-                    <figure className="image is-96x96">
-                      <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
-                        alt="Placeholder image"
-                      />
-                    </figure>
-                  </div>
-                  <div className="media-content">
-                    <p className="title is-4">John Smith</p>
-                    <p className="subtitle is-6">@johnsmith</p>
-                  </div>
-                </div>
-
-                <div className="content">
-                  "Being a single dad, the last thing you have time for is going
-                  to the Doctor when your back gives out. JointStrong guided me
-                  to recovery on my schedule, and gave me the tools to make sure
-                  it didn't happen again.... so I could keep chasing my 5 year
-                  old!"
-                  <br />​ - Branden
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-        <div>
-          <h1 className="title">The JointStrong® Care Pathways:</h1>
-          <div className="box columns is-centered">
-            <div className="column is-flex is-horizontal-center">
-              <figure className="image is-96x96">
-                <img
-                  src="https://bulma.io/images/placeholders/96x96.png"
-                  alt="Placeholder image"
-                />
-                <div className="has-text-centered">stuf</div>
-              </figure>
-            </div>
-            <div className="column is-flex is-horizontal-center">
-              <figure className="image is-96x96">
-                <img
-                  src="https://bulma.io/images/placeholders/96x96.png"
-                  alt="Placeholder image"
-                />
-                <div className="has-text-centered">stuf</div>
-              </figure>
-            </div>
-            <div className="column is-flex is-horizontal-center">
-              <figure className="image is-96x96">
-                <img
-                  src="https://bulma.io/images/placeholders/96x96.png"
-                  alt="Placeholder image"
-                />
-                <div className="has-text-centered">stuf</div>
-              </figure>
-            </div>
-          </div>
-          <p>
+        <div className="px-4 py-4 has-background-primary has-text-light">
+          <h1 className="title has-text-light">The JointStrong® Care Pathways:</h1>
+          
+          <p className="m-2 px-4 py-4">
             The JointStrong® program consists of three levels of care to ensure
             that you are given the care that you need. The best place to start
             the JointStrong® program is through our JointStrong® App. The
@@ -183,7 +128,7 @@ const Virtual = () => {
             diagnose your condition and assist you in deciding which level of
             JointStrong® care for the treatment of your condition.
           </p>
-          <p>
+          <p className="m-2 px-4 py-4">
             For those with simple conditions, the JointStrong® app will provide
             you with specific movements designed to help you alleviate your
             back, neck, or joint pain. For those with more complex conditions or
@@ -192,11 +137,11 @@ const Virtual = () => {
             national clinical network or virtual care platform.
           </p>
         </div>
-        <div>
+        <div className="m-2 px-4 py-4">
           <h1 className="title">The JointStrong® Difference</h1>
           Video
         </div>
-        <div>
+        <div className="m-2 px-4 py-4">
           <h1 className="title">JointStrong® is Nationwide</h1>
           <h2 className="subtitle">
             Interested in experiencing the improved patient experience from a

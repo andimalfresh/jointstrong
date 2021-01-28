@@ -1,31 +1,42 @@
 import React from "react";
+import Test1 from "./img/testimony1.png";
+import Test2 from "./img/testimony2.png";
+import Test3 from "./img/testimony3.png";
+import Phone from "./img/phone.png";
+import Self from "./img/selfcare2.png";
+import Clinical2 from "./img/clinicalcare2.png";
+import Virtual from "./img/virtualcareappt.png";
 
 const Clinical = () => {
   return (
-    <div>
-      <div className="hero is-info is-large">
-        <div className="hero-body">
-            <h1 className="title">Clinical Care</h1>
-            <h2 className="subtitle">
-              We are nationwide. To receive a consultation with a JointStrong®
-              Clinician call our Patient Care Team today.
+<div className="md-4">
+        <div className="hero is-info py-4 px-6">
+        <div className="columns is-align-items-center md-4">
+          <div className="rows">
+            <h1 className="row title">JointStrong®</h1>
+            <h2 className="row subtitle">
+              Your answer for musculoskeletal health and wellness.
             </h2>
           </div>
-      </div>
+          <div className="column is-half is-justify-content-center">
+            <img src={Phone} />
+          </div>
+        </div>
+        </div>
       <div>
-        <h2 className="subtitle">
+        <h2 className="subtitle px-4 py-4">
           Start rethinking your pain and care with JointStrong® today!
         </h2>
-        <p>
+        <div className="px-4 py-4">
           <strong>JointStrong®</strong> is a comprehensive program designed to
           resolve the majority of back, neck, and other joint conditions with a
           conservative approach that minimizes the need for opioids, injections,
           MRIs, surgeries, and other advanced forms of care. Whether for injury
           prevention or pain reduction, JointStrong can help you move from
           healthcare to self-care. Begin taking charge of your health today!
-        </p>
+        </div>
       </div>
-      <div>
+      <div className="px-4 py-4">
         <h1 className="title">The JointStrong® user experience:</h1>
         <div className="columns">
           <div className="column">
@@ -34,10 +45,7 @@ const Clinical = () => {
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-96x96">
-                      <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
-                        alt="Placeholder image"
-                      />
+                      <img src={Test1} alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="media-content">
@@ -61,10 +69,7 @@ const Clinical = () => {
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-96x96">
-                      <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
-                        alt="Placeholder image"
-                      />
+                      <img src={Test2} alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="media-content">
@@ -90,10 +95,7 @@ const Clinical = () => {
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-96x96">
-                      <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
-                        alt="Placeholder image"
-                      />
+                      <img src={Test3} alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="media-content">
@@ -114,38 +116,38 @@ const Clinical = () => {
             </div>
           </div>
         </div>
-        <div>
-          <h1 className="title">The JointStrong® Care Pathways:</h1>
-          <div className="box columns is-centered">
-            <div className="column is-flex is-horizontal-center">
-              <figure className="image is-96x96">
+        <div className="px-4 py-4 has-background-primary has-text-light">
+          <h1 className="title has-text-light">The JointStrong® Care Pathways:</h1>
+          <div className="columns is-centered has-text-light has-background-primary">
+            <div className="column is-flex is-horizontal-center my-4">
+              <figure className="image is-128x128">
                 <img
-                  src="https://bulma.io/images/placeholders/96x96.png"
+                  src={Self}
                   alt="Placeholder image"
                 />
-                <div className="has-text-centered">stuf</div>
+                <div className="has-text-centered">Self Care </div>
               </figure>
             </div>
-            <div className="column is-flex is-horizontal-center">
-              <figure className="image is-96x96">
+            <div className="column is-flex is-horizontal-center my-4">
+              <figure className="image is-128x128">
                 <img
-                  src="https://bulma.io/images/placeholders/96x96.png"
+                  src={Clinical2}
                   alt="Placeholder image"
                 />
-                <div className="has-text-centered">stuf</div>
+                <div className="has-text-centered">Clincal Care</div>
               </figure>
             </div>
-            <div className="column is-flex is-horizontal-center">
-              <figure className="image is-96x96">
+            <div className="column is-flex is-horizontal-center my-4">
+              <figure className="image is-128x128">
                 <img
-                  src="https://bulma.io/images/placeholders/96x96.png"
+                  src={Virtual}
                   alt="Placeholder image"
                 />
-                <div className="has-text-centered">stuf</div>
+                <div className="has-text-centered">Virtual Care</div>
               </figure>
             </div>
           </div>
-          <p>
+          <p className="m-2 px-4 py-4">
             The JointStrong® program consists of three levels of care to ensure
             that you are given the care that you need. The best place to start
             the JointStrong® program is through our JointStrong® App. The
@@ -153,7 +155,7 @@ const Clinical = () => {
             diagnose your condition and assist you in deciding which level of
             JointStrong® care for the treatment of your condition.
           </p>
-          <p>
+          <p className="m-2 px-4 py-4">
             For those with simple conditions, the JointStrong® app will provide
             you with specific movements designed to help you alleviate your
             back, neck, or joint pain. For those with more complex conditions or
@@ -162,11 +164,11 @@ const Clinical = () => {
             national clinical network or virtual care platform.
           </p>
         </div>
-        <div>
+        <div className="m-2 px-4 py-4">
           <h1 className="title">The JointStrong® Difference</h1>
           Video
         </div>
-        <div>
+        <div className="m-2 px-4 py-4">
           <h1 className="title">JointStrong® is Nationwide</h1>
           <h2 className="subtitle">
             Interested in experiencing the improved patient experience from a

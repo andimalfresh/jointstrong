@@ -12,7 +12,7 @@ const Home = () => {
     <div className="md-4">
         <div className="hero is-info py-4 px-6">
         <div className="columns is-align-items-center md-4">
-          <div className="rows m-4">
+          <div className="rows">
             <h1 className="row title">JointStrong®</h1>
             <h2 className="row subtitle">
               Your answer for musculoskeletal health and wellness.
@@ -24,10 +24,10 @@ const Home = () => {
         </div>
         </div>
       <div>
-        <h2 className="subtitle m-2 px-4 py-4">
+        <h2 className="subtitle px-4 py-4">
           Start rethinking your pain and care with JointStrong® today!
         </h2>
-        <div className="m-2 px-4 py-4">
+        <div className="px-4 py-4">
           <strong>JointStrong®</strong> is a comprehensive program designed to
           resolve the majority of back, neck, and other joint conditions with a
           conservative approach that minimizes the need for opioids, injections,
@@ -36,7 +36,7 @@ const Home = () => {
           healthcare to self-care. Begin taking charge of your health today!
         </div>
       </div>
-      <div className="m-2 px-4 py-4">
+      <div className="px-4 py-4">
         <h1 className="title">The JointStrong® user experience:</h1>
         <div className="columns">
           <div className="column">
@@ -116,7 +116,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="m-2 px-4 py-4 has-background-primary has-text-light">
+        <div className="px-4 py-4 has-background-primary has-text-light">
           <h1 className="title has-text-light">The JointStrong® Care Pathways:</h1>
           <div className="columns is-centered has-text-light has-background-primary">
             <div className="column is-flex is-horizontal-center my-4">
