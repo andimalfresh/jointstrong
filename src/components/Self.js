@@ -77,10 +77,10 @@ const Self = () => {
           <button>TRY IT NOW!</button>
         </div>
         <div>
-          <div className="columns is-horizontal-center m-2">
-            <div className="column is-full">
-
-              <div className="px-4 py-4">
+          <div className="m-2">
+            <div className="">
+       
+              <div className="px-4 py-4 is-half">
                 <div className="title">How to get Started</div>
                 <div className="subtitle">
                   Visit app.jointstrong.com to create an account and choose your
