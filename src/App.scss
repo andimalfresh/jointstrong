@@ -8,3 +8,45 @@
   .column {
     display: flex;
   }
+
+  .socialWrapper {
+    background-color: #ceede0;
+    color: #207ea9;
+  }
+  .socialContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  .socialIcons {
+    width: 25%;
+    color: #207ea9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .socialImg {
+    height: 40px;
+    width: 40px;
+    fill: #207ea9;
+    margin: 15px;
+  }
+  .socialLogo {
+    width: 25%;
+  }
+  .socialButton {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .contactLinks {
+    font-weight: bold;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .contactLinks a,
+  .contactLinks a:visited {
+    color: #207ea9;
+  }
