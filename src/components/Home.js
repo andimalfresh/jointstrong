@@ -6,11 +6,14 @@ import Phone from "./img/phone.png";
 import Self from "./img/selfcare2.png";
 import Clinical from "./img/clinicalcare2.png";
 import Virtual from "./img/virtualcareappt.png";
+// import introVid2 from "https://media.w3.org/2010/05/sintel/trailer_hd.mp4";
+import { Player} from "video-react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="md-4">
-        <div className="hero is-info py-4 px-6">
+      <div className="hero is-info py-4 px-6">
         <div className="columns is-align-items-center md-4">
           <div className="rows">
             <h1 className="row title">JointStrong®</h1>
@@ -22,7 +25,7 @@ const Home = () => {
             <img src={Phone} />
           </div>
         </div>
-        </div>
+      </div>
       <div>
         <h2 className="subtitle px-4 py-4">
           Start rethinking your pain and care with JointStrong® today!
@@ -117,32 +120,25 @@ const Home = () => {
           </div>
         </div>
         <div className="px-4 py-4 has-background-primary has-text-light">
-          <h1 className="title has-text-light">The JointStrong® Care Pathways:</h1>
+          <h1 className="title has-text-light">
+            The JointStrong® Care Pathways:
+          </h1>
           <div className="columns is-centered has-text-light has-background-primary">
             <div className="column is-flex is-horizontal-center my-4">
               <figure className="image is-128x128">
-                <img
-                  src={Self}
-                  alt="Placeholder image"
-                />
+                <Link to="/solutions#self"><img src={Self} alt="Placeholder image" /></Link>
                 <div className="has-text-centered">Self Care </div>
               </figure>
             </div>
             <div className="column is-flex is-horizontal-center my-4">
               <figure className="image is-128x128">
-                <img
-                  src={Clinical}
-                  alt="Placeholder image"
-                />
+              <Link to="/solutions#clinical"> <img src={Clinical} alt="Placeholder image" /></Link>
                 <div className="has-text-centered">Clincal Care</div>
               </figure>
             </div>
             <div className="column is-flex is-horizontal-center my-4">
               <figure className="image is-128x128">
-                <img
-                  src={Virtual}
-                  alt="Placeholder image"
-                />
+              <Link to="/solutions#virtual"> <img src={Virtual} alt="Placeholder image" /></Link>
                 <div className="has-text-centered">Virtual Care</div>
               </figure>
             </div>
@@ -166,7 +162,10 @@ const Home = () => {
         </div>
         <div className="m-2 px-4 py-4">
           <h1 className="title">The JointStrong® Difference</h1>
-          Video
+
+          <Player fluid autoPlay>
+            <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
+          </Player>
         </div>
         <div className="m-2 px-4 py-4">
           <h1 className="title">JointStrong® is Nationwide</h1>

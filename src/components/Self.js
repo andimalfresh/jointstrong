@@ -44,115 +44,104 @@ const Self = () => {
         <div className="columns is-horizontal-center">
           <div className="column is-one-third">
             <div>
-              <div className="subtitle">1Diagnostic Assestment</div>
+              <div className="subtitle has-text-weight-bold">
+                Diagnostic Assestment
+              </div>
               of your musculoskeletal condition to ensure the proper diagnosis
               of your musculoskeletal condition.
             </div>
           </div>
           <div className="column is-one-third">
             <div>
-              <div className="subtitle">2Diagnostic Assestment</div>
-              of your musculoskeletal condition to ensure the proper diagnosis
-              of your musculoskeletal condition.
+              <div className="subtitle has-text-weight-bold">
+                Personalized Treatment Plan
+              </div>
+              tailored to the results of your diagnostic assessment and
+              user-provided demographic data, level of pain and current mobility
             </div>
           </div>
         </div>
         <div className="columns is-horizontal-center">
           <div className="column is-one-third">
             <div>
-              <div className="subtitle">3Diagnostic Assestment</div>
-              of your musculoskeletal condition to ensure the proper diagnosis
-              of your musculoskeletal condition.
+              <div className="subtitle has-text-weight-bold">
+                On-Call Wellness Coaches
+              </div>
+              available at your convenience to assist with questions, concerns
+              you in maintaining your musculoskeletal wellness
             </div>
           </div>
           <div className="column is-one-third">
             <div>
-              <div className="subtitle">4Diagnostic Assestment</div>
-              of your musculoskeletal condition to ensure the proper diagnosis
-              of your musculoskeletal condition.
+              <div className="subtitle has-text-weight-bold">
+                Customized Self-Care Education
+              </div>
+              for your condition and prevention to assist you in maintaining
+              your musculoskeletal wellness
             </div>
           </div>
         </div>
         <div className="m-6 columns is-horizontal-center">
-          <button>TRY IT NOW!</button>
+          <button className="button is-primary">TRY IT NOW!</button>
         </div>
-        <div>
-          <div className="m-2">
-            <div className="">
-       
-              <div className="px-4 py-4 is-half">
-                <div className="title">How to get Started</div>
-                <div className="subtitle">
-                  Visit app.jointstrong.com to create an account and choose your
-                  desired care pathway: self-assessment, prevention or clinical
-                  consultation.
-                </div>
-              </div>
-              <div className="px-4 py-4">
-                <div className="title">How to get Started</div>
-                <div className="subtitle">
-                  Visit app.jointstrong.com to create an account and choose your
-                  desired care pathway: self-assessment, prevention or clinical
-                  consultation.
-                </div>
-              </div>
-              <div className="px-4 py-4">
-                <div className="title">How to get Started</div>
-                <div className="subtitle">
-                  Visit app.jointstrong.com to create an account and choose your
-                  desired care pathway: self-assessment, prevention or clinical
-                  consultation.
-                </div>
-              </div>
+        <div className="m-2">
+          <div className="px-4 py-4 is-half">
+            <div className="title">How to get Started</div>
+            <div>
+              <div className="is-size-4 has-text-weight-bold">Visit</div>
+              app.jointstrong.com to create an account and choose your desired
+              care pathway: self-assessment, prevention or clinical con
+            </div>
+            <div>
+              <div className="is-size-4 has-text-weight-bold">Personalize</div>
+              your care pathway to receive a treatment program tailored to your
+              specific needs. Begin working towards better health and recovery
+              by completing daily assessments, reaching milestones, and
+              receiving education to prevent future injury.
+            </div>
+            <div>
+              <div className="is-size-4 has-text-weight-bold">Call</div>
+              (855) 293-0340 with any questions, concerns or to schedule a
+              clinical consultation with a JointStrong® Clinician.
+            </div>
+            <div className="subtitle has-text-weight-bold my-4">
+              Experience the JointStrong® difference and begin your path to
+              musculoskeletal health and wellness by downloading the 100% free
+              JointStrong® Application today!
             </div>
           </div>
         </div>
 
-        <div className="px-4 py-4 has-background-success has-text-light">
-          <h1 className="title has-text-light">
-            The JointStrong® Care Pathways:
-          </h1>
-
-          <p className="m-2 px-4 py-4">
-            The JointStrong® program consists of three levels of care to ensure
-            that you are given the care that you need. The best place to start
-            the JointStrong® program is through our JointStrong® App. The
-            JointStrong® App will take you through an assessment process to
-            diagnose your condition and assist you in deciding which level of
-            JointStrong® care for the treatment of your condition.
-          </p>
-          <p className="m-2 px-4 py-4">
-            For those with simple conditions, the JointStrong® app will provide
-            you with specific movements designed to help you alleviate your
-            back, neck, or joint pain. For those with more complex conditions or
-            if you would like to talk to a licensed clinician, you will be
-            directed to connect with a Jointstrong clinician through our
-            national clinical network or virtual care platform.
-          </p>
+        <div className="px-4 py-6 my-4 has-background-success has-text-light">
+          <div className="columns">
+            <div className="column is-half is-flex-direction-column">
+              <div className="title has-text-light">
+                HEALTH &nbsp;
+                <span className="has-text-weight-bold">COACHING</span>
+              </div>
+              Need assistance with the JointStrong® Application, understanding
+              your movement plan, or have general questions? Our health coaches
+              can assist you in optimizing your in-app health program while
+              providing real-time support and assistance. Contact one of our
+              highly-trained health coaches today!
+            </div>
+            <div className="column is-half is-flex-direction-column">
+              <div className="title has-text-light">
+                HEALTH &nbsp;
+                <span className="has-text-weight-bold">COACHING</span>
+              </div>
+              Need assistance with the JointStrong® Application, understanding
+              your movement plan, or have general questions? Our health coaches
+              can assist you in optimizing your in-app health program while
+              providing real-time support and assistance. Contact one of our
+              highly-trained health coaches today!
+            </div>
+          </div>
+          <div className="m-4 subtitle has-text-weight-bold has-text-light has-text-centered">
+            CALL TODAY
+          </div>
         </div>
-        <div className="m-2 px-4 py-4">
-          <h1 className="title">The JointStrong® Difference</h1>
-          Video
-        </div>
-        <div className="m-2 px-4 py-4">
-          <h1 className="title">JointStrong® is Nationwide</h1>
-          <h2 className="subtitle">
-            Interested in experiencing the improved patient experience from a
-            JointStrong® Program?
-          </h2>
-          <p>
-            We recommend beginning your journey toward recovery by contacting
-            our highly training Health Coaching staff at{" "}
-            <strong>855-293-0340</strong>, but you are also able to leave us a
-            message on the site or search our database of current JointStrong®
-            facilities below. ​ Don't forget, JointStrong® also offers
-            telehealth solutions through our mobile application for the
-            treatment of your musculoskeletal condition. This allows us to offer
-            the superior treatment of your condition that you deserve from the
-            comfort of your chosen environment, but also on your schedule and at
-            your availability!
-          </p>
-        </div>
+        
       </div>
     </div>
   );

@@ -7,9 +7,9 @@ const Solutions = () => {
   return (
     <>
       <div className="container">
-        <Self />
-        <Virtual />
-        <Clinical />
+        <Self id="self" />
+        <Virtual id="virtual" />
+        <Clinical id="clinical" />
       </div>
     </>
   );
